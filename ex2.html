@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>Experiment 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="GET" method="post">
+        <h1> ONLINE APPLICATION FORM </h1>
+        <fieldset>
+        <h2>Examination Details</h2>
+        <label> Paper appearing for </label> <br/>
+        <input type="radio" name="paper" required="required" > 
+            <label>B.tech/B.E</label><br>
+            <input type="radio" name="paper" required="required"> 
+            <label> B.Arch/B.Plan</label><br>
+            <br>
+            Examination centre: &nbsp;<br/>
+             <select>
+                 <option label="Coimbatore" >
+                <option label="Kochi" >
+                <option label="Chennai" >
+                <option label="Bangalore" >
+                
+             </select>
+            <br>
+            <br>
+            Language Medium for question paper: <br>
+            <input type="radio" name="language" value="english" required="required">
+            <label>English</label><br>
+            <input type="radio" name="language" value="hindi" required="required"> 
+            <label>Hindi</label><br>
+            <input type="radio" name="language" value="gujarati" required="required">
+            <label>Gujarati</label><br>
+            </fieldset><br/>
+        <fieldset>
+            <h2>Personal Details</h2>
+                <input type="text" pattern="[A-Za-z]*" title="accept only characters" placeholder="Name of the candidate" required = "required" class="radius1" /> <br/><br/>
+                <input type="text" pattern="[A-Za-z]*" title="accept only characters" placeholder="Father’s Name" required = "required" class="radius1"/><br/><br/>
+                <input type="text" pattern="[A-Za-z]*" title="accept only characters" placeholder="Mother’s Name" required = "required" class="radius" /><br/><br/>
+                 Person with Disability<br/>
+                    <input type="radio" name="gender"/>Yes
+                    <input type="radio" name="gender"/>No<br/><br/>
+                <input type="email" placeholder="E-mail address" class="radius" required = "required"/><br/><br/>
+                Birthday<br/>
+                <input type="date" name="dob" required="required"> <br/><br/>
+                    Gender<br/>
+                    <input type="radio" name="gender"/>Male
+                    <input type="radio" name="gender"/>Female<br/>
+            </fieldset><br/>
+                    <fieldset>
+                    <h2> Academic details </h2>
+                    <label> Year of passing class 10th or equivalent </label>
+                    <select name="Year of passing class 10th or equivalent">
+    <option value="2018">2018</option>
+    <option value="2017">2017</option>
+    <option value="2016">2016</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+    <option value="2007">2007</option>
+    <option value="2006">2006</option>
+    <option value="2005">2005</option>
+    <option value="2004">2004</option>
+    <option value="2003">2003</option>
+    <option value="2002">2002</option>
+    <option value="2001">2001</option>
+    <option value="2000">2000</option>
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1992">1992</option>
+    <option value="1991">1991</option>
+    <option value="1990">1990</option>
+</select><br/><br/>
+                    <label> School Board of class 12th/qualifying examination </label> 
+                    <select name="School Board of class 12th/qualifying examination" class="radius">
+                        <option>CBSE</option>
+                        <option>State Board</option>
+                        </select><br/><br/>
+                        Name of the qualifying exam passed/appearing<br/>
+                        <input type="text" placeholder="Name of the qualifying exam passed/appearing" required = "required" class="radius1" /> <br/><br/>
+                        Place of class 12th/qualifying exam schooling <br/>
+                        <input type="text" placeholder="Place of class 12th/qualifying exam schooling" required = "required" class="radius1"/><br/><br/>
+                        
+                         <label> Year of passing or appearing class 12th/Qualifying exam </label>
+                    <select name="Year of passing or appearing class 12th/Qualifying exam" >
+    <option value="2018">2018</option>
+    <option value="2017">2017</option>
+    <option value="2016">2016</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+    <option value="2007">2007</option>
+    <option value="2006">2006</option>
+    <option value="2005">2005</option>
+    <option value="2004">2004</option>
+    <option value="2003">2003</option>
+    <option value="2002">2002</option>
+    <option value="2001">2001</option>
+    <option value="2000">2000</option>
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1992">1992</option>
+    <option value="1991">1991</option>
+    <option value="1990">1990</option>
+</select><br/><br/>
+                Percentage of marks in class 12th/Qualifying exam<br/>
+                        <input type="number" placeholder="Percentage of marks in class 12th/Qualifying exam" required = "required" class="radius1" /> <br/><br/>
+                Name of the college/school from where passed/appearing<br/>
+                        <input type="text" placeholder="Name of the college/school from where passed/appearing" required = "required" class="radius1" /> <br/><br/>
+                Address of the school/college from where passed or appearing <br/>
+                        <input type="text" placeholder="Address of the school/college from where passed or appearing" required = "required" class="radius1"/><br/></fieldset><br/>
+                        
+                        <fieldset>
+                        <h2> Contact Details </h2>
+                        Email Id <br/>
+                        <input type="email" name="Email_Id"  required = "required" /><br/><br/>
+                        Mobile Number<br/>
+                        <input type="tel" name="Mobile_Number" maxlength="13" pattern="[0-9]{10}" required = "required" />(10 digit number)<br/><br/>
+                        Landline Number<br/>
+                        <input type="tel" name="Landline_Number" maxlength="13" pattern="[0-9]{10}" required = "required" /> <br/></fieldset><br/>
+                        <fieldset>
+                        <h2> Password </h2>
+                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  name="password" required = "required" /><br/></fieldset><br/>
+                        <fieldset>
+                        <h2> Upload </h2>
+                        Photograph<br/>
+                            <input type="file" name="imgdocument" accept=".jpg" required="required"><br><br>
+                        Signature<br/>
+                           <input type="file" name="sigimg" accept=".jpg" required="required"><br/><br/>
+                            </fieldset>
+
+  
+<input type="checkbox" name="checkbox" value="check" id="agree" required = "required" /> I have read and agree to the Terms and Conditions <br/><br/>
+<button class="title" name="signup">Submit</button>
+                            </form>    
+    </body>
+</html>
